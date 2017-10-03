@@ -30,7 +30,7 @@ Copy and paste this into your Linux host machine
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
      
-      <remote fetch="git://github.com/FEDEVEL" name="fedevel"/>
+      <remote fetch="https://github.com/Gvaleur-openRex" name="fedevel"/>
      
       <project remote="fedevel" revision="jethro" name="meta-openrex" path="sources/meta-openrex">
         <copyfile src="openrex-setup.sh" dest="openrex-setup.sh"/>
@@ -50,7 +50,7 @@ Copy and paste this into your Linux host machine
 ### Currently Supported machines <machine name>
 Here is a list of 'machine names' which you can use to build OpenRex images. Use the 'machine name' based on the board you have:
  
- 
+    imx6s-openrex
     imx6q-openrex
      
 ### Setup and Build Console image

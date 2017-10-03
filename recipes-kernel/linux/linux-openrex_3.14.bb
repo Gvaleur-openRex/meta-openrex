@@ -19,9 +19,9 @@ PV .= ""
 SRCBRANCH = "jethro"
 LOCALVERSION = "-fslc"
 
-SRCREV = "26a886808a3151bdf2bf13532fd21c637cea1216"
+SRCREV = "f1dd5a0ffa9206d185cf3406ea037997d0cf5026"
 
 SRC_URI = "git://github.com/Gvaleur-openRex/openrex-linux-3.14.git;branch=${SRCBRANCH} \
            file://defconfig"
 
-COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex)"
+COMPATIBLE_MACHINE = "(mx6|mx7|imx6q-openrex|imx6s-openrex)"
